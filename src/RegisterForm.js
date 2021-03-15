@@ -17,7 +17,6 @@ const RegisterForm = () => (
                 } else if (!values.password) {
                     errors.password = 'Password is required.'
                 }
-
                 return errors;
             }}
             onSubmit={(values, { setSubmitting }) => {
