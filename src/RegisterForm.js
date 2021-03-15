@@ -26,11 +26,13 @@ const RegisterForm = () => (
         >
             {({ isSubmitting }) => (
                 <Form>
+                <label htmlFor="email">Email: </label>
                 <Field type="email" name="email" placeholder="Your email address" />
                 <br></br>
                 <br></br>
                 <ErrorMessage name="email" component="div" />
                 <br></br>
+                <label htmlFor="password">Password: </label>
                 <Field type="password" name="password" placeholder="Your password"/>
                 <br></br>
                 <br></br>
